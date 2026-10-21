@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: markitdown
-  version: "0.1.8"
+  version: "0.1.9"
   python_min: '3.10'
   python_max: '4.0'
 
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/markitdown-${{ version }}.tar.gz
-  sha256: 17188ad827ea79fc264c7b1ca8cf5a242a16278d84cc32f2edc475dbe92812ed
+  sha256: 8f692236fc104b9251e1b86bdea969c6a1617174fe37eebb78ac6fa62a2894f0
 
 build:
   number: 0
