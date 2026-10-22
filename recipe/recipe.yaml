@@ -46,7 +46,7 @@ requirements:
     # https://github.com/microsoft/markitdown/blob/main/packages/markitdown/pyproject.toml#L35
     # https://github.com/conda-forge/markitdown-feedstock/issues/17
     - python-pptx
-    - mammoth >=1.11.0
+    - mammoth >=1.12.2,<2
     - pandas
     - openpyxl
     - xlrd
@@ -54,9 +54,11 @@ requirements:
     - pdfminer.six >=20251230
     - pdfplumber >=0.11.9
     - olefile
-    - youtube-transcript-api >=1.0.0
+    - youtube-transcript-api >=1.2.3
     - azure-ai-documentintelligence
+    - azure-ai-contentunderstanding >=1.2.0b1
     - azure-identity
+    - certifi >=2026.10.19
   run_constraints:
     # The rest of the [all] extra, kept opt-in because installing it would restrict
     # markitdown itself:
